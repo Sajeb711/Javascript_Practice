@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/javascript-favicon-120.png" type="image/x-icon">
+  <title>task 4</title>
+</head>
+<body>
+
+  <script>
+    //turorial 13.  14//else ,if
+    
+    var mark = parseFloat(prompt("Enter Your Marks :"))
+
+    if(mark>100 || mark<0)
+    document.write("Invalid Marks")
+    // এখানে or operator দেওয়া হয়েছে কারন  or operator এর সময় যদি একটি condition true হয় তাহলে পুরো সকল condition গুলোও true হয়ে যায়। এর and operatoe এর সময় একটি condition false হিলে বাকি সব গুলোও false হয়ে যায়। তাই এখানে or operator ব্যবহার করা হয়েছে।  
+
+    else if (mark>=80 && mark<= 100 )
+    document.write ("A+" )
+
+    else if(mark>=70 && mark<= 79)
+    document.write ("A" )
+
+    else if(mark>=60 && mark<= 69 )
+    document.write ("A-" )
+
+    
+     else if(mark>=50 && mark<= 59 )
+    document.write ("B" )
+   
+    else if(mark>=40 && mark<= 49 )
+    document.write ("C" )
+   
+    else if(mark>=33 && mark<= 39 )
+    document.write ("D" )
+     
+    else
+    document.write ("Fail" )
+
+  
+    </script>
+</body>
+</html>

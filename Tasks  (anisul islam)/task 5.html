@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/javascript-favicon-120.png" type="image/x-icon">
+  <title>Task 5</title>
+  <style>
+
+    body{
+  background-color: rgb(224, 224, 224);
+  width: 600px;
+  margin: 0 auto;
+  color: rgb(58, 52, 52);
+  font-size: 25px;
+  margin-top: 50px;
+  line-height: 50px;
+}
+
+  </style>
+</head>
+<body>
+  <script>
+//////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    // turorial 16   17// use of switch ;; 
+
+       var letter = prompt("Enter Letter :")
+
+      letter = letter.toLowerCase()
+
+     switch (letter) {
+
+       case "a":
+       document.write("VOWEL")
+       break;
+
+       case "e":
+       document.write("VOWEL")
+       break;
+
+       case "i":
+      document.write("VOWEL")
+       break;
+
+       case "o":
+       document.write("VOWEL")
+       break;
+
+       case "u":
+       document.write("VOWEL")
+       break;
+       
+       default :
+       document.write("CONSONANT")
+     }
+
+    // এই উদাহরণ এ vowel বার বার লিখে করা হয়েছে। নিচে একই ocde ছোট করে লিখে দেখানো হল। 
+
+
+/////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+// এখানে বার বার document.write("VOWEL") না লিখে এর ছোট করে লেখা হয়েছে। 
+var letter = prompt("Enter Letter :")
+
+letter = letter.toLowerCase()
+
+switch (letter) {
+
+case "a":
+case "e":
+case "i":
+case "o":
+case "u":
+
+document.write("VOWEL") ;
+break;
+
+default :
+document.write("CONSONANT"); 
+
+}
+
+
+
+  </script>
+</body>
+</html>
