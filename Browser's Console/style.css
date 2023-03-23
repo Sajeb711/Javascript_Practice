@@ -1,9 +1,9 @@
 body{
   background-color: rgb(224, 224, 224);
-  width: 1000px;
-  margin: 0 auto;
+  width: 700px;
+  margin: 0 100px;
   color: rgb(58, 52, 52);
   font-size: 25px;
-  margin-top: 50px;
-  line-height: 50px;
+  margin-top: 10px;
+  line-height: 35px;
 }
