@@ -1,8 +1,8 @@
-// এখানে একই roject দুই ভাবে করা হয়েছে বা যায়। প্রথমে একই project ""if,else if, else"" এর মাধ্যমে করা হয়েছে । আবার একই project ""switch""  এর মাধ্যমে।
+// এখানে একই project দুই ভাবে করা হয়েছে বা যায়। প্রথমে একই project ""if,else if, else"" এর মাধ্যমে করা হয়েছে । আবার একই project ""switch""  এর মাধ্যমে।
 
 var digit = prompt("Enter Any Digit From 1 to 50 ; ");
 
-// switch ব্যবহার করার জন্য ৪ টা keyword সম্পর্কে জানতে হবে। switch , case, break, default. ( switch এর মধ্যে variable এর নাম বলতে হবে। তারপর case এর মধ্যে  value গুলো দিতে হবে । case লেখার পর অবশ্যই কোলন (:)  চিহ্ন দিতে হবে। case এর পর  break ব্যবহার করতে হবে। না হলে সকল value গুলোও দেখাবে।   সবার শেষের value তে case ব্যবহার না করে  default keyword ব্যবহার করতে হবে।  )
+// switch ব্যবহার করার জন্য ৪ টা keyword সম্পর্কে জানতে হবে। switch , case, break, default. ( switch এর মধ্যে variable এর নাম বলতে হবে। তারপর case এর মধ্যে  value গুলো দিতে হবে । case লেখার পর অবশ্যই কোলন (:)  চিহ্ন দিতে হবে। case এর পর  break ব্যবহার করতে হবে। না হলে সকল value গুলোও দেখাবে।   সবার শেষের value তে case ব্যবহার না করে  default keyword ব্যবহার করতে হবে।  
 
 switch (digit) {
   case "0":

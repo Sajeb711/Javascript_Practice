@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/javascript-favicon-120.png" type="image/x-icon">
+  <title>Javascript Practice</title>
+  <style>
+    .container{
+      display: block;
+      text-align: center;
+    }
+    img{
+      height: 150px;
+      width: 150px;
+      border: 2px solid black;
+      border-radius: 50px;
+    }
+    button{
+      margin: 25px 0;
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+      background-color: cyan;
+      border-top-right-radius: 20px ;
+      border-bottom-left-radius: 20px ;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <form action="#" onclick="Vote()">
+ <img src="/Practices/Sheikh Hasina.jpeg" alt=""> <input class="vote1" type="radio" name="Vote" > <br>
+
+  <img src="/Practices/Begum khaleda  Zia.jpg" alt=""> <input class="vote2" type="radio" name="Vote"> <br>
+  
+  <img src="/Practices/Shofikur Rohoman.jpeg" alt=""> <input class="vote3" type="radio" name="Vote"> <br>
+  <button type="submit">Submit Here</button>
+</form>
+</div>
+
+  <!-- <table border="1" cellpadding="4" cellspacing="4">
+    <tr>
+      <th>Country</th>
+      <th>Calling Code</th>
+      <th>Continent</th>
+    </tr>    
+    <tr>
+   <td>Bangladesh</td>
+   <td>+880</td>
+   <td>Asia</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>+91</td>
+      <td>Asia</td>
+    </tr>
+    <tr>
+      <td>&nbsp;USA</td>
+      <td>&nbsp;+1</td>
+      <td>America</td>
+    </tr>
+    <tr>
+      <td>&nbsp;UK</td>
+      <td>&nbsp;+44</td>
+      <td>Europe</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Mexico</td>
+      <td>&nbsp;+52</td>
+      <td>America</td>
+    </tr>
+    <tr>
+      <td>&nbsp;China</td>
+      <td>&nbsp;+86</td>
+      <td>Asia</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Argrntina</td>
+      <td>&nbsp;+54</td>
+      <td>South America</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Australia</td>
+      <td>&nbsp;+61</td>
+      <td>Oceania</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Canada</td>
+      <td>&nbsp;+1</td>
+      <td>America</td>
+    </tr>
+    <tr>
+      <td>&nbsp;France</td>
+      <td>&nbsp;+33</td>
+      <td>Europe</td>
+    </tr>
+
+  </table><br> -->
+
+
+  <script>
+    function Vote(){
+    let age = prompt('how old are You?')
+    if (age >= 18 && age <=100){
+      document.write("You are Eligible To Vote");
+    }
+    else if (age > 100){
+      document.write("You are dead");
+    }
+    else{
+      document.write("You are Not Eligible To Vote");
+    }
+  }
+  Vote();
+  </script>
+</body>
+</html>

@@ -44,7 +44,7 @@ for (var p = 10; p >=1; p = p - 1){
 
 
 for (var l = 20; l >=1; l = l - 2){
-  document.write(" < " + l + " > ");
+  document.write(" < " + l + " > " + "<br>");
 }
 
 // ২০ থেকে ১ পর্যন্ত ২ করে করে কমবে ।
@@ -60,7 +60,7 @@ var sum2 = inp1 - inp2
 var sum3 = inp1 * inp2
 var sum4 = inp1 / inp2
 
-document.write(sum1 + "<br>" , sum2 + "<br>", sum3 + "<br>", sum4 + "<br>");
+document.write("Sums is = ", + sum1 + "<br>" , sum2 + "<br>", sum3 + "<br>", sum4 + "<br>");
 
 // এখানে user দুইটা সংখ্যা input সেই দুই সংখ্যা প্রথমে যোগ হবে তারপর বিয়োগ হবে তারপর গুন হবে তারপর ভাগ হবে। 
 
@@ -75,7 +75,7 @@ var honey = 0;
 for( var p = bee ; p < flower; p = p + 1 ){
   honey = honey + p ;
 }
-document.write(honey);
+document.write("Honey = "+ honey);
 
 // এখানে user যে প্রথম value input দিবে তার দ্বিতীয় value  পর্যন্ত মোট যোগফল দেখাবে। 
 
