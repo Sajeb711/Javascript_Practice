@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(207, 224, 231);
+  margin: 0 15px;
+  color: rgb(58, 52, 52);
+  font-size: 20px;
+  line-height: 25px;
+}
+p{
+  font-size: 30px;
+  color: Red;
+  font-weight:900;
+  text-align: center;
+  text-decoration: underline;
+}

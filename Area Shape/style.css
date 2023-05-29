@@ -1,0 +1,9 @@
+body{
+  background-color: rgb(148, 135, 135);
+  width: 600px;
+  margin: 0 auto;
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 50px;
+  line-height: 50px;
+}
