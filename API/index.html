@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/javascript-favicon-120.png"
+      type="image/x-icon"
+    />
+    <title>WEB API</title>
+  </head>
+  <body>
+    <input
+      id="inputForm"
+      type="number"
+      max="300"
+      min="100"
+      placeholder="input number between 100 to 300"
+    />
+    <button onclick="validation()">OK</button>
+    <p id="showInput"></p>
+
+    <input
+      id="inputForm2"
+      type="number"
+      max="100"
+      min="20"
+      placeholder="input number between 20 to 100"
+    />
+    <button onclick="validation2()">OK</button>
+    <p id="showInput2"></p>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+    <a id="ancor" href="history API two.html">Got to Page two</a> <br />
+    <br />
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+    <fieldset id="localStorage">
+      <legend>local Storage</legend>
+
+      <input
+        class="btn2"
+        type="button"
+        value="Set Local Storage 1"
+        onclick="SetLocalStorage('username', 'Sajeb Chakraborty')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Get Local Storage 1"
+        onclick="GetLocalStorage('username')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value="Set Local Storage 2"
+        onclick="SetLocalStorage('PhoneNumber', '01995046112')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Get Local Storage 2 "
+        onclick="GetLocalStorage('PhoneNumber')"
+      />
+      <br />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Remove Local Storage 1"
+        onclick="RemoveLocalStorage('username')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Remove Local Storage 2"
+        onclick="RemoveLocalStorage('PhoneNumber')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Clear Local Storage Item"
+        onclick="ClearLocalStorage()"
+      />
+    </fieldset>
+
+    <fieldset id="sessionStorage">
+      <legend>Session Storage</legend>
+
+      <input
+        class="btn2"
+        type="button"
+        value="Set Session Storage 1"
+        onclick="SetSessionStorage('College', 'Rajshahi Government City College')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Get Session Storage 1"
+        onclick="GetSessionStorage('College')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value="Set Session Storage 2"
+        onclick="SetSessionStorage('Profession', 'Web Developer')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Get Session Storage 2 "
+        onclick="GetSessionStorage('Profession')"
+      />
+      <br />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Remove Session Storage 1"
+        onclick="RemoveSessionStorage('College')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Remove Session Storage 2"
+        onclick="RemoveSessionStorage('Profession')"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Session Storage Key length"
+        onclick="SessionStorageKeylength()"
+      />
+
+      <input
+        class="btn2"
+        type="button"
+        value=" Clear Session Storage Item"
+        onclick="ClearSessionStorage()"
+      />
+    </fieldset>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+    <p id="displayLocation"></p>
+    <input
+      type="button"
+      class="btn2"
+      value="Show Location"
+      onclick="getLocation()"
+    />
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

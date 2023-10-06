@@ -1,0 +1,38 @@
+{
+  "PersonLife": [
+    {
+      "person_1_Name": "Sajeb Chakraborty",
+      "person_1_Age": 23,
+      "person_1_college": "World University",
+      "person_1_married": false,
+      "person_1_address": "Bangladesh",
+      "person_1_mobie_number": "0195046112",
+      "person_1_profession": " Web Developer",
+      "person_1_friends": {
+        "person-1-first-friend's-name": "Subash Sorkar",
+        "person-1-first-friend's-age": 22,
+        "person-1-first-friend's-height": "5 ft. 8 inch",
+        "person-1-second-friend's-name": "Sohorab Islam",
+        "person-1-second-friend's-age": 23,
+        "person-1-second-friend's-height": "5 ft. 8.5 inch"
+      }
+    },
+    {
+      "person_2_Name": "Ariana Grande",
+      "person_2_Age": 29,
+      "person_2_college": "American University",
+      "person_2_married": true,
+      "person_2_address": "American",
+      "person_2_mobie_number": "unknown",
+      "person_2_profession": " Singer , Actor",
+      "person_2_friends": {
+        "person-2-first-friend's-name": "Tori Vega",
+        "person-2-first-friend's-age": 30,
+        "person-2-first-friend's-height": "5 ft. 6 inch",
+        "person-2-second-friend's-name": "Jade",
+        "person-2-second-friend's-age": 31,
+        "person-2-second-friend's-height": "5 ft. 7 inch"
+      }
+    }
+  ]
+}

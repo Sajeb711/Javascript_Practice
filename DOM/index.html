@@ -5,31 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="/javascript-favicon-120.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon"href="/javascript-favicon-120.png"type="image/x-icon"/>
     <title>Document Object Model (DOM)</title>
   </head>
   <body>
-    <h4 id="h4">this is heading 1</h4>
-    <h4 id="h3">this is heading 3</h4>
+    <div id="example1"></div>
+    <div id="example2"></div>
+    <div id="element by id"></div>
+    <div id="element by ids"></div> 
+    <div>used in javascript by tag name</div>
+    <p>used in javascript by tag name</p>
+    <details class="elementsbyclass"></details>
+    <div class="elementsbyclass"></div>
+    <tt id="cssCelectorByid">css selector </tt>
+    <blockquote class="cssCelectorByclass">css selector</blockquote>
+    <div class="cssSelectorallByclass"></div>
+    <div class="cssSelectorallByclass"></div>
+    <div>
+      <img id="image" src="photo.jpg" alt="picture">
+    </div>
+    <div id="dynamicContent"></div>
+    <div id="dynamicContent2"></div>
 
-    <p class="para1">Paragraph 1</p>
-    <p class="para2">Paragraph 2</p>
+    <form name="fullText" action="form.php" method="post" onsubmit="return formValidation()">
+      Name : <input type="text" name="fullTexts">
+      <input type="submit" value="submit">
+    </form>
 
-    <a href="http://www.google.com">Google</a>
-    <a href="http://www.google.com">Google</a> <br />
+    <input id="numberInput">
+    <button type="button" onclick="formNumber()">Submit</button>
+    <p id="numpInput"></p>
 
-    <cite id="tens1" class="tend1">Man Is Mortal </cite>
-    <legend id="tens2" class="tend2">who is immortal ?</legend>
-    <cite id="tens3" class="tend3">everyone will die oneday</cite> <br />
+    <div>
+      <form action="text.php" method="post">
+        Input Anything : <input type="text" required>
+        <input type="submit" value="submit">
+      </form>
+    </div>
 
-    <p id="para3">hello</p>
+    <div>
+      <form action="text.php" method="post">
+        Input Number : <input type="number" max="100" min="10" >
+        <input type="submit" value="submit" disabled>
+      </form>
+    </div>
 
-    
-    <button onclick="loop()">Click Here !</button>
-    <script src="/DOM/DOM.js"></script>
+    <div id="cssStyle">this is css style change</div>
+    <button onclick="styles()">Click Here</button>
+
+    <div > 
+      <div id="contai">
+        <div id="animati"></div>
+        <div id="animati2"></div>
+      </div>
+      <button id="animabutt" onclick="myAnimation()">Animation</button>
+    </div>
+    <button id="eventlis">Click This Button</button> <br>
+    <button id="eventliss">Click On This Button</button> <br>
+    <p id="manyhandler">Many Event Handler</p> <br>
+    <button id="passpara"> click here For parameter</button> <br>
+
+     <div id="bubbling">
+      <p id="bubbling2">click here for bubbling and open console</p>
+     </div>
+
+     <div id="capture">
+      <p id="capture2">click here for capture and open console </p>
+     </div>
+
+     <div id="myDiv">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo veniam sed at iure possimus. Alias iure, vero neque eaque delectus laboriosam at enim, obcaecati pariatur provident, aliquid veniam inventore? Atque?</p>
+      <button id="myBTN"  onclick="removeHandler()">remove</button>
+     </div>
+     <p id="pdemo"></p>
+
+
+      <p id="parahed">paragraph</p>
+
+      <h3 id="hed3">Welcome  to my Page</h3>
+      <h1 id="pagh"></h1>
+
+      <div id="network">
+        <h1>this is heading 1</h1>
+        <h2 id="heading2">this is heading 2</h2>
+        <h3>this is heading 3</h3>
+      </div>
+
+      <div id="divnode">
+        <p id="p1">this is para 1 </p>
+        <h3 id="h3">this is heading 3</h3>
+        <h2 id="h2">this is heading 2</h2>
+        <h5 id="h5">this is heading 5</h5>
+      </div>
+
+      <script src="dom.js"></script>
   </body>
 </html>

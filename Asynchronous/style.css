@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(224, 224, 224);
+  margin: 0 20px;
+  color: rgb(58, 52, 52);
+  font-size: 22px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+#demo1{
+  color: blue;
+  font-size: 40px;
+  line-height: 40px;
+  /* font-weight: 900; */
+  /* transition: 1.9s; */
+}
+#demo2{
+  color: red;
+  font-size: 40px;
+  line-height: 40px;
+  /* text-align: right; */
+  /* font-weight: 900; */
+  /* transition: 1.9s; */
+}
+#demo3{
+  color: green;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  /* transition: 1.9s; */
+}
+#demo4{
+  color: olive ;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  /* text-align: right; */
+  /* transition: 1.9s; */
+}
+#demo5{
+  color: magenta ;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  /* transition: 3s; */
+}

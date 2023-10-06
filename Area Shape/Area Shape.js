@@ -1,23 +1,23 @@
-var base = parseFloat(prompt("Enter Base"));
-var Height = parseFloat(prompt("Enter Height"));
+let base = parseFloat(prompt("Enter Base"));
+let Height = parseFloat(prompt("Enter Height"));
 
-var area = base * Height;
-document.write ( "Square area = " + area +"<br>");
+let area1 = base * Height;
+document.write ( "Square area = " + area1 +"<br>");
 
-var area = base * Height;
-document.write ( "Rectangle area = " + area +"<br>");
+let area2 = base * Height;
+document.write ( "Rectangle area = " + area2 +"<br>");
 
-var area = (base * Height) /2 ;
-document.write ( "Triangle area = " + area +"<br>");
+let area3 = (base * Height) /2 ;
+document.write ( "Triangle area = " + area3 +"<br>");
 
-var area = ((base + Height)* Height) / 2 ;
-document.write ( "Trapezium area = " + area +"<br>");
+let area4 = ((base + Height)* Height) / 2 ;
+document.write ( "Trapezium area = " + area4 +"<br>");
 
- var area = base * Height;
- document.write ( "Parallelogram area = " + area +"<br>");
+ let area5 = base * Height;
+ document.write ( "Parallelogram area = " + area5 +"<br>");
 
- var area = (base * Height) /2 ;
-document.write ( " Rhombus area = " + area +"<br>");
+ let area6 = (base * Height) /2 ;
+document.write ( " Rhombus area = " + area6+"<br>");
 
-var area = (base * Height) /2 ;
-document.write ( " Kite area = " + area +"<br>");
+let area7 = (base * Height) /2 ;
+document.write ( " Kite area = " + area7 +"<br>");

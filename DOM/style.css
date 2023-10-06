@@ -1,19 +1,57 @@
 body{
   background-color: rgb(224, 224, 224);
-  margin: 0 100px;
+  /* margin: 0 100px; */
   color: rgb(58, 52, 52);
   font-size: 25px;
-  margin-top: 10px;
-  line-height: 35px;
+  /* margin-top: 10px; */
+  line-height: 30px;
+}
+.animado{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
 }
 
-button{
-  padding: 10px;
+#contai{
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  /* display: block; */
+  margin: 0 auto;
+  position: relative;
+}
+
+#animati{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  
+}
+#animati2{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(14, 228, 235);
+  position: absolute;
+  right: 0;
+}
+
+#animabutt{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#myDiv{
+  background-color: coral;
+  border: 1px solid;
+  padding: 50px;
   color: white;
-  background-color: purple;
-  font-size: 15px;
-  border-radius: 50px;
-  border: none;
-  font-weight: 600;
-  cursor:grab;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#divnode{
+  border: 2px solid;
+  display: inline-block;
 }

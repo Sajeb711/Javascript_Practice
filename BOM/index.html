@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/javascript-favicon-120.png" type="image/x-icon">
+  <title>BOM (Browser Object Model)</title>
+</head>
+<body>
+  <p id="show_height"></p>
+  <!-- <button id="btn_height" onclick="showHeight()">Click here To show Window inner height</button>  -->
+  <p id="show_width"></p>
+  <!-- <button id="btn_width" onclick="showwidth()">Click here To show Window inner width</button> -->
+  <button onclick="openWindow()">Open Window</button>
+  <button onclick="closeWindow()">Close Window</button> <br><br>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+  
+  <div id="screen_width"></div>
+  <div id="screen_height"></div>
+  <div id="screen_availableHeight"></div>
+  <div id="screen_availablewidth"></div>
+  <div id="screen_colorDepth"></div>
+  <div id="screen_pixeDepth"></div> <br><br>
+  
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+  
+  <div id="href"></div>
+  <div id="hostName"></div>
+  <div id="pathName"></div>
+  <div id="protocol"></div>
+  <div id="port"></div>
+  <input type="button" value="Load Other Page" onclick="loadPage()"> <br><br>
+  
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+  
+  <input type="button" value="Back" onclick="back()">
+  <input type="button" value="Foword" onclick="forword()">
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+  
+  <p></p>
+  <div id="appname"></div>
+  <div id="appCodeName"></div>
+  <div id="platform"></div>
+  <div id="coockieEnable"></div>
+  <div id="product"></div>
+  <div id="userAgent"></div>
+  <div id="Online"></div>
+  <div id="language"></div>
+  <div id="javaEnable"></div> <br><br>
+
+  
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <p id="confirM"></p>
+  <p id="proMpt"></p>
+  <input type="button" value="Alert Boxes" onclick="Alert()"> <br>
+  <button onclick="Confirm()" >Confirm Boxs</button> <br>
+  <input type="button" value="Prompt Boxs" onclick="Prompt()"> <br> <br><br>
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <p id="timeOut"></p>
+  <p id="interval"></p>
+  <div>
+  <input type="button" value="TimeOut Start()" onclick="startTImeout()"> <br>
+  <input type="button" value="TimeOut End()" onclick="endTimeout()"> <br>
+
+  <input type="button" value="TimeInterval Start()" onclick="startTimeInterval()"> <br>
+  <input type="button" value="TimeInterval End()" onclick="endTimeInterval()"> <br>
+</div>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>

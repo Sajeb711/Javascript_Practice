@@ -1,5 +1,5 @@
 
-// যে variable কোন function এর বাহিরে থাকে function এর মধ্যে থাকে না সেটাকে global variable বলা হয় । আর যে variable কোন function এর মধ্যে থাকে function এর মধ্যে থাকে না সেটাকে Local variable বলা হয়। যেমন ঃ 
+//* যে variable কোন function এর বাহিরে থাকে function এর মধ্যে থাকে না সেটাকে global variable বলা হয় । আর যে variable কোন function এর মধ্যে থাকে function এর মধ্যে থাকে না সেটাকে Local variable বলা হয়। যেমন ঃ 
 /* 
  let cd = 15 ;       Global variable
 

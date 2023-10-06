@@ -1,18 +1,16 @@
 
-var num=656;
-
+let num=656;
 if(num%2 == 0)
 document.write("Even" + "<br>")
 
 else
 document.write("Odd"+ "<br>")
 
-///////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-var num1 = prompt("Enter Num1 : " )
-var num2 = prompt("Enter Num2 : " )
-var num3 = prompt("Enter Num3 : " )
+let num1 = prompt("Enter Num1 : " )
+let num2 = prompt("Enter Num2 : " )
+let num3 = prompt("Enter Num3 : " )
 
 //কোনটি সবচে বড় নাম্বার তা এখানে পাওা যাবে। 
 
@@ -24,8 +22,6 @@ document.write( "Large Number = " + num2 + "<br>")
 else
 document.write( "Large Number = " + num3 + "<br>") ;
 
-
-////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 
@@ -40,8 +36,4 @@ document.write("Your Input Letter Is  Vowel")
 
 else 
 document.write("Your Input Letter Is  Consonant");
-
-
-////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
 

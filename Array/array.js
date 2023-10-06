@@ -66,11 +66,11 @@ for (s = 0; s < fruits.length; s++) {
 
 
              // for each :
+
 const computer = ['monitor ', 'mouse ', 'keybord ', ' cpu' , '<br>'];
-function fuNction(comped){
-  document.write(comped);
-}
-computer.forEach(fuNction);
+computer.forEach(function(values){
+  document.write(values)
+})
 
 // array এর মধ্যে for loop ও for each এর কাজ একই । তবে  for loop থেকে for each এর করা সহজ । 
      
