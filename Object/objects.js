@@ -1,14 +1,31 @@
-// video -- Stack learner (50,51,52,53,54,55,56,57) -
+// video -- Stack learner (50,51,52,53,54,55,56,57) -  learn with sumit (62,63,64,65,66,67,68,69,70,71)
 
-              // What is Object ?
 
-/* object হচ্ছে array এর advance version . object হচ্ছে special data type.যা আমরা নিজের মতো করে define করতে পারি। javascript এ mainly দুই ধরণের deta type আছে।  
-1. peimitiv type (number, integer,null, undefined,boolean)
+                                                // What is Object ?
+
+/* object হচ্ছে javascript এর special data type । object   array এর advance version । যা আমরা নিজের মতো করে define করতে পারি। javascript  এ সব কিছুই object । number , string , boobleans, dates, maths,regular expressions, arrays , functions , object সবকিছুই object . যদি number , strings, booleans এর সাথে new keyword ব্যবহার করা হয় তাহলে সেটা object হয়ে যায় ।  
+ javascript এ mainly দুই ধরণের data type আছে।  
+1. primitive type (number, integer, null, undefined, boolean)
 2. object type. (object)
-এই object type এ আমরা নিজেদের মতো করে data type তৈরি করতে পারি primitiv type এর সাহায্যে । 
-উধাহরনস্বরূপ আমরা যদি কোন মানুষের কোন তথ্য দিতে চাই তাহলে আমাদের object এর সাহায্য নিতে হবে। আমরা এই কাজ array এর মাধ্যমেও করতে পারি । তবে সেটা করলে আমি ছাড়া অন্য কেউ দেখলে সেই code বুঝতে পারবে না ।  অর্থাৎ যে বস্তুটা define করার জন্য একটা data যথেষ্ট না অনেক গুলো data লাগছে define করার জন্য সেই বস্তুকে আমরা object দ্বারা কল্পনা করতে পারি। 
-*/
 
+এই object type এ আমরা নিজেদের মতো করে data type তৈরি করতে পারি primitiv type এর সাহায্যে ।  উধাহরনস্বরূপ আমরা যদি কোন মানুষের কোন তথ্য দিতে চাই তাহলে আমাদের object এর সাহায্য নিতে হবে। আমরা এই কাজ array এর মাধ্যমেও করতে পারি । তবে সেটা করলে আমি ছাড়া অন্য কেউ দেখলে সেই code বুঝতে পারবে না ।  অর্থাৎ যে বস্তুটা define করার জন্য একটা data যথেষ্ট না অনেক গুলো data লাগছে define করার জন্য সেই বস্তুকে আমরা object দ্বারা কল্পনা করতে পারি। 
+
+  javascript এ  কয়েকভাবে object  তৈরি করা যায় । 
+1.  object literal ব্যবহার করে object তৈরি করা যায় । 
+   const person : {
+  firstNmae : 'Sajeb',
+  lastName : 'chakraborty',
+  fullName : "sajeb Chakraborty"
+}
+
+2.  new keyword ব্যবহার করে object তৈরি করা যায় । 
+   const book = new Object();  // new keyword দ্বারা object তৈরি করা ঠিক না  । 
+   book.subject1 = " Perl "; 
+   book.subject2 = ' math'; 
+  book.subject3 = ' english';
+  console.log( 'My Favourite book is '  + book.subject2 + book.subject3 + book.subject1) 
+
+*/
 
 let man_details = {
   name : 'Sajeb Chakraborty',
@@ -36,15 +53,18 @@ javascript এ object declare করার জন্য প্রথমে এ�
  
 */
 
+                // literal object 
+
 let lit_obj = {
   xy : 1,
   xx : 50,
   yy : 100
-}                  // literal object 
-// ওপরের এই object এর মধ্যে যদি কোন value পরিবর্তন করতে চাই  বা তার মধ্যে কোন নতুন value দিতে চাই তাহলে তার উপায় হল ;
+}  
 lit_obj.xy = 150,  // updating existing value . 
 lit_obj.xyz = 400. // new value added . 
 console.log(lit_obj);  
+// ওপরের এই object এর মধ্যে যদি কোন value পরিবর্তন করতে চাই  বা তার মধ্যে কোন নতুন value দিতে চাই তাহলে তার উপায় হল ;
+
 
 
 let const_obj = Object();
@@ -58,7 +78,92 @@ const_objs.women = 'Zara'
 console.log(const_objs); // object constructor
 
 
-           // accessing Object 
+
+
+                                //   Displaying object (not in console in web page)
+  
+  /*
+   object সাধারানত সরাসরি web page এ  print  করানো যায় না ।  object web page এ সরাসরি  print করলে [object , object ] দেখায় ।  object console এ সরাসরি print করা যায় । web page এ object print করানোর কয়েকটি মাধ্যম আছে । যেমন ঃ 
+   1.  সরাসরি object এর properties'র নাম দ্বারা ।
+   2.  loop এর মাধ্যমে  properties গুলো access করা যায় ।  
+   3.  object.values()  এর মাধ্যমে ।
+   4.  JSON.Stringify() এর মাধ্যমে । 
+*/
+1.
+const byproperties ={
+  bottle1color : 'Blue',
+  bottle1size : ' 1 liter'
+}   //  displaying object properties by  properties
+document.getElementById('byproperties').innerHTML = byproperties.bottle1color;
+
+2.
+const byloops = {
+  bottle2color : ' Red ',
+  bottle2size : ' 2 liter ',
+}
+let emtytxt = " ";
+for (let bottle2 in byloops){
+emtytxt += byloops[bottle2]
+}   // displaying object by useing  in loop
+document.write(emtytxt)
+
+
+3.
+const dictionary = {
+  lettuce: 'a veggie ',
+  banana: ' a fruit',
+  tomato: ' it depends on who you ask',
+  apple: ' a fruit',
+  Apple: ' Steve Jobs rocks!'
+}  // displaying object by Object.value() .. if you want only object values then you can use this method . this method only shows object values . 
+document.getElementById('byobjectvalues').innerHTML = Object.values(dictionary) ;
+
+
+4.
+const byjson = {
+  bottle3color : ' Black ',
+  bottle3size : ' Half Liter ',
+}  // displaying object by json.stringify()
+document.getElementById('byjsonstringify').innerHTML = JSON.stringify(byjson);
+
+const byjsonstring = {
+  bottle3color : ' Black ',
+  bottle3size : ' Half Liter ',
+  bottle3prise : function (){
+    return 70
+  }
+}  //  you  cannot simply show  function in web page . if you want to show function in web page then first you have to convert that function in tring then you can display that function in web page . example in above and below check out .... 
+byjsonstring.bottle3prise = byjsonstring.bottle3prise.toString()
+document.getElementById('byjsonstringifying').innerHTML = JSON.stringify(byjsonstring);
+
+
+
+
+                                                   //  Object Constructors 
+//  যখন প্রায় একই রকমের অনেক গুলো  object  তৈরি করতে হয় তখন সেই object এর blueprint লাগে ।  কোন কিছুর blueprint থাকলে একই জিনিস অনেক বার আলাদা আলাদা ভাবে করা যায় ।  ঠিক তেমনি যখন কোন object এর  কাঠামোর blueprint থাকে তখন  অনেক গুলো object সহজেই তৈরি করা যায় ।  Object Constructors  অনেকটা class এর মতো করা ব্যবহার করতে হয় ।  class সম্পর্কে ভাল ধারনা থাকে Object Constructors  পারা খুবই সহজ ।  যেমন ঃ 
+
+  function Pen(pname, pcolor, pprice){
+     this.penName = pname; 
+     this.penColor = pcolor; 
+     this.penPrice = pprice; 
+     this.descriptions = function () {
+      return "this is best Pen"
+     }
+  }
+
+  const pen1 = new Pen ('Matador', 'Black', ' 5 taka');
+  const pen2 = new Pen ('Fresh', 'Green', ' 8 taka');
+  const pen3 = new Pen ('Good Luck', 'White', ' 10 taka');
+  
+  pen2.pheight = ' 6 inch ';
+  pen1.ptype = 'Ball Pen' ;     //  আলাদা ভাবে কোন  object এর মধ্যে properties add করতে চাইলে এই পদ্ধতি ব্যবহার করতে হবে । 
+  console.log(pen2);
+  console.log(pen3.descriptions());
+
+// এখানে  Pen নামে যে  কাঠামো আছে সেটা হল Object Constructors । এখানে প্রথমে  একটি Constructors এর কাঠামো তৈরি করে নেওয়া হয়েছে তারপর সেই কাঠামোর  মধ্যে  মন মতো value বশিতে নেওয়া হয়েছে ।  এই  Object Constructors এর মাধ্যমে  খুব সহজেই অনেক object তৈরি করে ফেলা যায় । 
+
+
+                        // accessing Object 
 /* 
 কোন object access করার দুইটি পদ্ধতি আছে । 
 1. dot notetion
@@ -135,7 +240,7 @@ console.log(mobile);
 
 
         // remove object properties 
-// কোন object এর properties remove করার জন্য javascript এর build-in keyword 'delet' ব্যবহার করলেই হবে।  
+// কোন object এর properties remove করার জন্য javascript এর build-in keyword 'delet' ব্যবহার করলেই হবে।  delet keyword শুধু মাত্র object এর জন্য ব্যবহার করা যায় । অন্য কোন জায়গায় delet ব্যবহার করলে সেটা কাজ করবে না । 
 let pc = {
   screen : 1300 + '*' +  980,
   processor : 'core i 5' ,
@@ -170,8 +275,10 @@ console.log(JSON.stringify(obj1) == JSON.stringify(obj2));
 
 
 
-              // iterate object 
-let person = {
+                                  // object iterable 
+//   iterate দ্বারা বুঝায় কোন object বা array বা যে কোন কিছুর মধ্যে দিয়ে  loop করে করে যে পারা ।  javascript এ array এর মধ্যে দিয়ে সহজেই iterate করে যাওয়া যায়  কিন্তু object এর মধ্যে দিয়ে সহজেই  iterate করে যাওয়া যায় না  ।  
+
+const person = {
   Name : ' Sajeb Chakraborty  <br>',
   Address : ' Rajshahi, Bangladesh <br> ',
   College : ' Rajshahi Government City College <br> ',
@@ -185,6 +292,15 @@ for (let s in person){
   document.write(s);
   document.write(' : '+ person[s]);
 };
+
+const names = ['bob', ' alejandro', ' zandra', ' anna', 'bob'];
+ console.log(names);
+
+const namesg = {
+  dod: 'bob alejandro zandra anna bob'
+}
+ console.dir( namesg);
+
 
 
 

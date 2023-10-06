@@ -41,7 +41,7 @@ document.write(sajeb)
 }
 document.write(z + '<br>');  //cannot access 'z' from outside the block scope .
 
-// console খুললে এটার error দেখা যাবে। 
+      console খুললে এটার error দেখা যাবে। 
 
 
 //////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -84,7 +84,7 @@ document.write(boy_named + '<br>');
 
 
 
-                    //Const
+                                                                             //Const
 // const ও let অনেকটা প্রায় একই তবে কিছু পার্থক্য আছে । let এর ক্ষেত্রে একই variable কে দুইবার declare করা যায় না কিন্তু সেটাকে আবাব reassign করা যায় । const এর ক্ষেত্রে একই variable কে দুইবার declare করা যায় না  আবার সেটাকে reassign ও করা যায় না।  new array , new object, new function , new regularExpression তৈরি করার জন্য const ব্যবহার করা ভাল । 
 
 /*

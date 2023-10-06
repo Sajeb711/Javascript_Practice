@@ -6,6 +6,9 @@ body{
   margin-top: 10px;
   line-height: 24px;
 }
-h1{
+#textArea{
   color: red;
+  font-size: 22px;
+  font-family: serif;
+  /* text-align: center; */
 }

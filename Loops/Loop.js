@@ -32,12 +32,12 @@ for (let k = 1; k <= 5; k = k + 1){
   document.write(k+"<br>");
 }
 
-     // অনেক ধরন loop রয়েছে । যেমন --
+     // অনেক ধরণের loop রয়েছে । যেমন --
 
 /* 
- 1. For Loop
- 2. for in loop
- 3. for of loop
- 4. While loop
+ 1. For Loop ( for loop সকল loop করার ক্ষেত্রে ব্যবহার করা যায়। )
+ 2. for in loop ( for in loop object এর ক্ষেত্রে ব্যবহার করা ভাল array এর ক্ষেত্রে ব্যবহার করা ঠিক নয় )
+ 3. for of loop (for of loop array এর ক্ষেত্রে ব্যবহার করা উচিত ।  )
+ 4. While loop ( যদি শুধু condition statement টি করতে হয় তাহলে while loop ব্যবহার করা হয়। )
  5. Do while loop
 */

@@ -1,6 +1,20 @@
 // video -- Learn With Sumit (35),,
 
 // for loop ব্যবহার করার জন্য প্রথমে variable declare করতে হবে । তারপর loop এর condition লিখতে হবে । তারপর loop এর increment বা decrement লিখতে হবে। for loop এ প্রথম বন্ধনির মধ্যে ৩ টা statement লিখতে হবে। আর দ্বিতীয় বন্ধনির মধ্যে আমি যা print করতে চাই টা লিখতে হবে ।  for loop এ প্রথম বন্ধনির এক এর অধিক variable declare করা যায় । 
+
+// Statement 1 --
+
+let u = 1
+for (let ua = 1 , mo = 2; ua < 5 ; ua++){
+  document.write(ua);
+}
+// statement  1 বা ১ম সেমিকলন area আর মধ্যে একের অধিক জিনিস initilize করা যায়।  
+
+let sat = 2;
+let ijk = 0;
+for(; ijk>sat;sat++){
+  document.write(ijk)
+}
   
 
 for (let y = 1 ; y <= 13 ; y = y + 2){
@@ -18,7 +32,7 @@ for (let y = 2; y <= 12; y = y + 2){
 
 
 
-for (let p = 7; p >=1; p = p - 1){
+for (let p = 7; p >= 1; p = p - 1){
   document.write('<br>'+ p  );
 }
 // ১০ থেকে ১ পর্যন্ত ১ করে করে কমবে ।
@@ -59,3 +73,6 @@ document.write(honey);
 // এখানে user যে প্রথম value input দিবে তার দ্বিতীয় value  পর্যন্ত মোট যোগফল দেখাবে। 
 
 */
+
+
+
